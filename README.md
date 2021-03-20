@@ -17,6 +17,7 @@ The main goal of this project is to practice making the web application responsi
 Users can do simple calculation by pressing the operator, number, and "=" keys. As it's responsive, user can view this application from any devices.
 
 ## How does this work?
+Find the site [here!](https://asiisii.github.io/self-care-center/)
 - "( )" parenthesis are used to denote modifications to normal order of operations
 - "%" to calculate percentage
 - "AC" to clear the result
