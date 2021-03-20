@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+form,
+.buttons {
+  display: flex;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(60deg, #b57e5e, #c4b082, #7ab9c2, #4d8282);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*                     Calculator design                   */
+.wrapper {
+  flex: 0 0 35%;
+  border: 2px solid #E6E7EA;
+  padding: 7px;
+  border-radius: 0.5rem;
+}
+
+/*                     display screen                   */
+.view {
+  padding: 0.5rem;
+  width: 100%;
+  height: 200px;
+  font-size: 6rem;
+  background-color: transparent;
+  color: #5e2e0d;
+  text-align: right;
+  cursor: text;
+  border: 2px dashed #E6E7EA;
+  margin: 10px;
+  border-radius: 0.5rem;
+}
+
+/*                     buttons design                   */
+.buttons {
+  flex-wrap: wrap;
+}
+
+button {
+  flex: 0 0 24.5%;
+  padding: 1rem 0;
+  margin: 0 2px 4px 0;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #F0F3F4;
+  color: #202225;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+.operator {
+  background-color: #D9DCE0;
+}
+
+.solve {
+  background-color: #4285F3;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #080529;
+}
